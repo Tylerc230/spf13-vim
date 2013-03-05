@@ -94,7 +94,7 @@
     set virtualedit=onemore             " Allow for cursor beyond last character
     set history=1000                    " Store a ton of history (default is 20)
     set spell                           " Spell checking on
-    set hidden                          " Allow buffer switching without saving
+    "set hidden                      " allow buffer switching without saving
 
     " Setting up the directories {
         set backup                  " Backups are nice ...
