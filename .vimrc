@@ -73,11 +73,6 @@
     set mousehide               " Hide the mouse cursor while typing
     scriptencoding utf-8
 
-    if has ('x') && has ('gui') " On Linux use + register for copy-paste
-        set clipboard=unnamedplus
-    elseif has ('gui')          " On mac and Windows, use * register for copy-paste
-        set clipboard=unnamed
-    endif
 
     " Most prefer to automatically switch to the current file directory when
     " a new buffer is opened; to prevent this behavior, add the following to
